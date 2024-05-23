@@ -1,2 +1,2 @@
 # HospitalManagementSystem-FrontEnd
-Javascript ve React kullanarak yapılmıştır
+Javascript ve React kullanarak geliştirilmiştir
