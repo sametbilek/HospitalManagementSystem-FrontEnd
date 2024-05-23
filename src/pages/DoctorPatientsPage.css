@@ -1,0 +1,50 @@
+.doctor-patients-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page-header {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #4183c4;
+  }
+  
+  .patient-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .patient-card .card-header {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .patient-card .card-meta {
+    font-size: 1.1em;
+    color: #777;
+  }
+  
+  .patient-card .card-description {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .report-segment {
+    background-color: #f9f9f9;
+    border-left: 4px solid #4183c4;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .report-segment p {
+    margin: 5px 0;
+  }
+  
+  .report-segment strong {
+    color: #333;
+  }

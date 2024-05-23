@@ -1,0 +1,68 @@
+.patient-page {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page-header {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #4183c4;
+  }
+  
+  .patient-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .patient-card .card-header {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .patient-card .card-meta {
+    font-size: 1.1em;
+    color: #777;
+  }
+  
+  .patient-card .card-description {
+    font-size: 1.1em;
+    color: #555;
+  }
+  
+  .section-header {
+    margin-top: 40px;
+    font-size: 2em;
+    color: #4183c4;
+  }
+  
+  .create-appointment-button {
+    margin-bottom: 20px;
+  }
+  
+  .appointment-card, .report-card {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .appointment-card .card-header, .report-card .card-header {
+    font-size: 1.3em;
+    color: #333;
+  }
+  
+  .appointment-card .card-meta, .report-card .card-meta {
+    font-size: 1.1em;
+    color: #777;
+  }
+  
+  .appointment-card .card-description, .report-card .card-description {
+    font-size: 1.1em;
+    color: #555;
+  }

@@ -1,0 +1,48 @@
+/* src/components/Patients/PatientForm.css */
+.patient-form-container {
+    padding: 40px;
+    background-color: #f4f4f4; /* Hafif gri arka plan */
+    border-radius: 10px; /* Yuvarlak köşeler */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hafif gölge efekti */
+    max-width: 500px; /* İçeriği daha merkezi hale getirmek için maksimum genişlik */
+    margin: 40px auto; /* Otomatik marj ile ortala */
+  }
+  
+  .form-header {
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px; /* Başlık altı boşluk */
+  }
+  
+  .form-field {
+    margin-bottom: 20px;
+  }
+  
+  .input-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2185d0; /* Mavi arka plan */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #1678c2; /* Hover durumunda daha koyu mavi */
+  }
